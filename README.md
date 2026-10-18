@@ -1,2 +1,1 @@
-# clep
-Cora Language Enhancement Proposal (LEP) 
+# The Cora Language Enhancement Proposal (CLEP)
