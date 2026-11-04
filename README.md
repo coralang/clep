@@ -5,6 +5,8 @@ Welcome to the Cora language governance platform.
 ## Proposal directory
 
 <!-- CLEPS-LIST:START -->
+### Table of contents
+
 - [Draft](#draft)
   - [CLEP-0000: CLEP Purpose and Governance Guidelines](proposals/clep-0000.md)
 
