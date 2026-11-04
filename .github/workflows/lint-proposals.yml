@@ -1,0 +1,21 @@
+name: Lint CLEPs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdownlint:
+    name: Run Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown Files
+        uses: DavidAnson/markdownlint-cli2-action@v25
+        if: hashFiles('proposals/**/*.md') != ''
+        with:
+          globs: "proposals/**/*.md"

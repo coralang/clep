@@ -1,0 +1,16 @@
+# Global fallback reviewers
+
+*  @djoezeke
+
+# CLEP Governance and Process enforcement
+
+/proposals/clep-0000.md @djoezeke
+
+# Automated review routing for incoming community proposals
+
+/proposals/ @djoezeke
+
+# Infrastructure and validation automation tools
+
+/.github/workflows/ @djoezeke
+/scripts/ @djoezeke
