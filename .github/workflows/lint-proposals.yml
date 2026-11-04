@@ -20,8 +20,4 @@ jobs:
         with:
           globs: "proposals/**/*.md"
           fix: true
-          config: |
-            {
-              "MD013": false,
-              "MD030": false
-            }
+          config: ".markdownlint-cli2.jsonc"
